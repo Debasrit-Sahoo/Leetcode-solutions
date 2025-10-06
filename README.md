@@ -11,3 +11,5 @@ Files are named according to the problem number. Suffixes like `_notshit` or `_n
 Run each Python file with:
 ```bash
 python leet1.py
+
+**Note:** Functions or classes are just defined and tests are not present. Pre-existing structures needed such Linked List or Binary Tree structures are not defined. 
