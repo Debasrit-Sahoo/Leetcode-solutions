@@ -6,6 +6,3 @@ def twoSum(nums, target):
             return [hmap[other_half], i]
         else:
             hmap[v] = i
-
-
-print(twoSum([4,25,6,21,5], 10))

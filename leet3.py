@@ -1,5 +1,3 @@
-
-
 def lenbs(s):
     dct = {}
     temp = 0
@@ -10,6 +8,3 @@ def lenbs(s):
         dct[v] = i
         max_len = max(max_len, i - temp + 1)
     return max_len
-             
-        
-print(lenbs("d"))
