@@ -7,9 +7,13 @@ Files are named according to the problem number. Suffixes like `_notshit` or `_n
 
 ---
 
+Disclaimer: Functions or classes are just defined and tests are not present.
+Pre-existing structures like Linked Lists or Binary Trees are not defined.
+Some early solutions may not run as-is and are intended for learning or reference only.
+
+---
+
 ## Usage
 Run each Python file with:
 ```bash
 python leet1.py
-
-###**Note:** Functions or classes are just defined and tests are not present. Pre-existing structures needed such Linked List or Binary Tree structures are not defined. 
