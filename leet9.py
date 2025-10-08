@@ -1,4 +1,3 @@
-
 def isPalindrome(x):
         x = str(x)
         l = len(x)
@@ -6,5 +5,3 @@ def isPalindrome(x):
             if x[i] != x[-(i+1)]:
                 return False
         return True
-             
-print(isPalindrome(-348))

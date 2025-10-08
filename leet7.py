@@ -11,5 +11,3 @@ def reverse(x):
             rev = rev*10 + temp
             x = int(x / 10)
         return rev*sign
-
-print(reverse(-1563847412))

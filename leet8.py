@@ -13,6 +13,3 @@ def myAtoi(s):
                 break
         s = int(s) * sign if s != "" else 0
         return bounds[0] if s < bounds[0] else bounds[1] if s > bounds[1] else s
-            
-
-print(myAtoi("00000-42"))
