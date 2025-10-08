@@ -13,6 +13,3 @@ def convert(s,r):
         for i in d:
             out = out + i
         return out
-        
-
-print(convert("PAYPALISHIRING", 4))
