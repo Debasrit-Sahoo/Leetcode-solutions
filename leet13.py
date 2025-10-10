@@ -25,5 +25,3 @@ def rtm(s):
                 val += lib[s[i]]
                 i += 1
         return val
-
-print(rtm("MCMXCIV"))
