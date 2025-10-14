@@ -12,7 +12,6 @@ def reverseKGroup(head, k):
         t = dummy
         cur = head
         c = 1
-
         while cur.next != None:
             if c == k:
                 s, tail= call(t.next, cur.next)
