@@ -19,4 +19,3 @@ def connect(root):
                 cur = cur.next
             cur = head
         return root
-
