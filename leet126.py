@@ -40,7 +40,4 @@ def findLadders(beginWord, endWord, wordList):
                     constructor(x, l)
                     l.pop()
         constructor(endWord, [])
-        print(parents)
         return out
-print(findLadders(beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log","cog"]))
-print(findLadders(beginWord = "hit", endWord = "dog", wordList = ["hot","dog"]))
