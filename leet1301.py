@@ -1,4 +1,3 @@
-from typing import List
 class Solution:
     def pathsWithMaxScore(self, board: List[str]) -> List[int]:
         n = len(board)
@@ -24,5 +23,3 @@ class Solution:
                 dp[y], diag = nxt, dp[y]
 
         return dp[0] if dp[0][0] != -1 else [0, 0]
-
-print(Solution().pathsWithMaxScore(["E11","XXX","11S"]))
