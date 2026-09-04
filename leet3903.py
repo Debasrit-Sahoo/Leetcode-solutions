@@ -1,7 +1,7 @@
 class Solution:
     def firstStableIndex(self, nums: list[int], k: int) -> int:
         rmin = [0] * len(nums)
-        mn = rmax = s = 1 << 32
+        mn = rmax = 1 << 32
         rmax *= -1
 
         for i, v in enumerate(reversed(nums), start=1):
